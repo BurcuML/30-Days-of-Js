@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to left, #e6ffa2, #fafd4c);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    border: none;
+}
+table td{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.boxes{
+    padding: 15px;
+}
