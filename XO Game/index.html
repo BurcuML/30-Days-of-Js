@@ -5,45 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>XO Game</title>
+    <title>Tic-Tac-Toe Game</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>XO Game</h1>
+                <h1>Colorful Tic-Tac-Toe Game</h1>
+                <div class="player">
                 <h2>Player 1: <span id="player1"></span></h2>
-                <h2>Player 2: <span id="player2"></span></h2>
-                <h2>Winner: </h2>
+                <h2>Player 2: <span id="player2"></span></h2>                    
+                </div>
+                <h2>Winner: <span id="winner"></span></h2>
                 <table border="1" width="400" height="400">
                     <div class="boxes">
                         <tr>
-                            <td id="box-1"></td>
-                            <td id="box-2"></td>
-                            <td id="box-3"></td>
+                            <td onclick="playGame()" id="box-1"></td>
+                            <td onclick="playGame()" id="box-2"></td>
+                            <td onclick="playGame()" id="box-3"></td>
                         </tr>
                         <tr>
-                            <td id="box-4"></td>
-                            <td id="box-5"></td>
-                            <td id="box-6"></td>
+                            <td onclick="playGame()" id="box-4"></td>
+                            <td onclick="playGame()" id="box-5"></td>
+                            <td onclick="playGame()" id="box-6"></td>
                         </tr>
                         <tr>
-                            <td id="box-7"></td>
-                            <td id="box-8"></td>
-                            <td id="box-9"></td>
+                            <td onclick="playGame()" id="box-7"></td>
+                            <td onclick="playGame()" id="box-8"></td>
+                            <td onclick="playGame()" id="box-9"></td>
                         </tr>
                     </div>
 
                 </table>
             </div>
-            <button id="button" onclick="myButton()">
+            <button id="button" onclick="resetButton()">
                 RESET
             </button>
         </div>
 
     </div>
-
+<script src="main.js"></script>
 </body>
 
 </html>
