@@ -13,24 +13,24 @@ body{
     align-items: center;
     text-align: center;
 }
-.container{
-    position: relative;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-}
-table{
-    border: none;
-}
-table td{
+
+.cell{
     cursor: pointer;
-    border-radius: 10px;
-    border: 2px solid black;
+    height: 75px;
+    width: 75px;
+    border: 2px solid;
+}
+.cell:active{
+    background-color: #d7da51;
 }
 .boxes{
-    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 270px;
+    margin: auto;
+    padding: 10px;
 }
-#button{
+#reset{
     padding: 15px 60px 15px 60px;
     margin: 20px;
     border-radius: 15px;
