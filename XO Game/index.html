@@ -18,28 +18,19 @@
                 <h2>Player 2: <span id="player2"></span></h2>                    
                 </div>
                 <h2>Winner: <span id="winner"></span></h2>
-                <table border="1" width="400" height="400">
                     <div class="boxes">
-                        <tr>
-                            <td onclick="playGame()" id="box-1"></td>
-                            <td onclick="playGame()" id="box-2"></td>
-                            <td onclick="playGame()" id="box-3"></td>
-                        </tr>
-                        <tr>
-                            <td onclick="playGame()" id="box-4"></td>
-                            <td onclick="playGame()" id="box-5"></td>
-                            <td onclick="playGame()" id="box-6"></td>
-                        </tr>
-                        <tr>
-                            <td onclick="playGame()" id="box-7"></td>
-                            <td onclick="playGame()" id="box-8"></td>
-                            <td onclick="playGame()" id="box-9"></td>
-                        </tr>
+                            <div onclick="playGame()" id="box-1" class="cell"></div>
+                            <div onclick="playGame()" id="box-2" class="cell"></div>
+                            <div onclick="playGame()" id="box-3" class="cell"></div>
+                            <div onclick="playGame()" id="box-4" class="cell"></div>
+                            <div onclick="playGame()" id="box-5" class="cell"></div>
+                            <div onclick="playGame()" id="box-6" class="cell"></div>
+                            <div onclick="playGame()" id="box-7" class="cell"></div>
+                            <div onclick="playGame()" id="box-8" class="cell"></div>
+                            <div onclick="playGame()" id="box-9" class="cell"></div>
                     </div>
-
-                </table>
             </div>
-            <button id="button" onclick="resetButton()">
+            <button id="reset" onclick="resetButton()">
                 RESET
             </button>
         </div>
