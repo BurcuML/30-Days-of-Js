@@ -3,3 +3,30 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 10px;
+    margin: 10px;
+}
+
+#guess{
+    width: 100px;
+    text-align: center;
+}
