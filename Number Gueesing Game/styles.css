@@ -33,6 +33,7 @@ body{
     border-radius: 5px;
 }
 #submit{
+    font-weight: 700;
     background-color: rgb(236, 228, 255);
     border-radius: 5px;
     width: 100px;
@@ -40,4 +41,5 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    padding: 5px;
 }
