@@ -18,16 +18,14 @@
             <br>
             <label for="unit">Select a unit:</label>
             <select name="unit" id="unit">
-                <option value="celsius">Celsius</option>
-                <option value="fahrenheit">Fahrenheit</option>
-                <option value="kelvin">Kelvin</option>
-                <br>
-                <br>
-                <input type="submit" value="Convert">
+                <option value="celsius" id="celsius">Celsius > Fahrenheit </option>
+                <option value="fahrenheit" id="fahrenheit">Fahrenheit > Celsius</option>
             </select>
         </form>
+        <input type="submit" value="Convert" id="convert" onclick="convertTemp()">
     </div>
-<script src="main.js"></script>
+    <div class="result center" id="result"></div>
+    <script src="main.js"></script>
 </body>
 
 </html>
