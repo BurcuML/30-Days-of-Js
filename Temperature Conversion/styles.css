@@ -14,6 +14,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+label{
+    font-size: 20px;
+    margin-right: 15px;
+}
 .container {
     padding: 10px;
     border-top: 3px solid #fff;
@@ -28,10 +32,39 @@ body {
     margin-bottom: 35px;
     text-shadow: 3px 5px 5px #000;
 }
-
+#temp{
+    text-align: center;
+    width: 90px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 4px;
+    border: none;
+}
+#convert{
+    width: 100px;
+    height: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-top: 25px;
+    border: none;
+}
+#unit{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
 .center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.result{
+    font-weight: 700;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    margin-top: 25px;
 }
