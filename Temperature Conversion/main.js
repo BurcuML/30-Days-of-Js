@@ -6,11 +6,11 @@ const result = document.getElementById("result")
 
 function convertCels() {
     let f = (temp.value * 9 / 5) + 32
-    result.textContent = f + "°F"
+    result.textContent = temp.value + "°C = " +  f + "°F"
 }
 function convertFah() {
     let c = (temp.value - 32) * 5 / 9
-    result.textContent = c + "°C"
+    result.textContent = temp.value + "°F = " + c + "°C"
 }
 function convertTemp() {
     if (celsius.selected) {
