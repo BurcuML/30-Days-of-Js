@@ -31,3 +31,9 @@ body{
     background-color: #000;
     border: 2ps solid;
 }
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
