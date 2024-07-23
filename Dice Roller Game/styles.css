@@ -25,15 +25,36 @@ body{
     height: 100px;
 }
 .sec1{
-    margin: 15px;
     width: 100px;
     height: 100px;
     background-color: #000;
     border: 2ps solid;
+    border-radius: 10px;
 }
 span{
+    padding: 35px;
+    font-size: 25px;
+}
+.roll{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    width: 90px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.roll:hover{
+    background-color: #fff;
+    color: #000;
+    transform:scale(1.1, 1.1);
+}
+.center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 35px;
+}
+.color{
+    background-color: #ff0000;
 }
