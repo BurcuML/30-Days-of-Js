@@ -48,6 +48,7 @@ span{
     background-color: #fff;
     color: #000;
     transform:scale(1.1, 1.1);
+    transition: 0.4s;
 }
 .center {
     display: flex;
