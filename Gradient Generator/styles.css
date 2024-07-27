@@ -6,10 +6,7 @@
 body{
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 .container{
     padding: 10px;
@@ -22,13 +19,27 @@ body{
     text-align: center;
     padding: 10px;
 }
+.container button{
+    margin: 10px;
+    padding:7px;
+}
 .colors{
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .colors label{
-    
+    padding: 10px;
+}
+.colors input{
+    width: 4rem;
+    background-color: #fff;
+    border: none;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
