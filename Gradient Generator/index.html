@@ -11,13 +11,14 @@
 <body class="flex">
     <div class="container flex">
         <h1>Gradient Generator</h1>
-        <div class="colors">
-        <label for="color1">Color 1:</label>
-        <input type="color" id="color1" name="color1" value="#">
-        <label for="color2">Color 2:</label>
-        <input type="color" id="color2" name="color2" value="#">
+        <div class="colors"> 
+        <input type="color" id="color1" name="color1" value="#000000">
+        <input type="color" id="color2" name="color2" value="#000000">
     </div>
-    <button onclick="generateGradient()">Generate Gradient</button>
+    <button onclick="generateLinear()">Generate Linear Gradient</button>
+    <button onclick="generateRadial()">Generate Radial Gradient</button>
+    <button onclick="generateConic()">Generate Conic Gradient</button>
+
     </div>
     <script src="main.js"></script>
 </body>
