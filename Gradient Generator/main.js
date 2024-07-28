@@ -1,34 +1,20 @@
-const guess = document.getElementById("guess")
-const submit = document.getElementById("submit")
-const message = document.getElementById("message")
-let randomNum = Math.floor(Math.random() * 100) + 1;
-console.log(randomNum);
-const minNum = 0;
-const maxNum = 100;
-const win = "You win!"
+const color1 = document.getElementById("color1")
+const color2 = document.getElementById("color2")
 
-function guessNum() {
-    if (guess.value > maxNum || guess.value <= minNum) {
-        message.textContent = `Guess a number between ${minNum} and ${maxNum}`
-    }
-    else if (guess.value == randomNum) {
-        message.textContent = win
-        randomNum = Math.floor(Math.random() * 100) + 1;
-        playAgain()
-    } else if (guess.value > randomNum) {
-        message.textContent = "Too high!";
-    } else if (guess.value < randomNum) {
-        message.textContent = "Too low!";
-    } else if (guess.value != randomNum) {
-        message.textContent = "Try again!";
-    }
-    guess.value = ""
-    guess.focus()
+
+
+function generateLinear() {
+    const gradientString = `linear-gradient(to right, ${color1.value}, ${color2.value})`
+    document.body.style.background = gradientString;
+    console.log(gradientString)
 }
-
-function playAgain() {
-    submit.textContent = "Play Again?";
-    submit.addEventListener("click", function () {
-        location.reload()
-    });
+function generateRadial() {
+    const gradientString = `linear-gradient(to right, ${color1.value}, ${color2.value})`
+    document.body.style.background = gradientString;
+    console.log(gradientString)
+}
+function generateConic() {
+    const gradientString = `linear-gradient(to right, ${color1.value}, ${color2.value})`
+    document.body.style.background = gradientString;
+    console.log(gradientString)
 }
