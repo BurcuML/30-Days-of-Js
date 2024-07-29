@@ -21,7 +21,7 @@ body{
     padding: 10px;
 }
 .buttons button{
-    width: 100px; /*120 px yap*/
+    width: 120px;
     font-weight: 700;
     margin-top: 15px;
     padding:10px;
