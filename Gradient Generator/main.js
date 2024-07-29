@@ -10,10 +10,8 @@ function generateLinear() {
 function generateRadial() {
     const gradientString = `radial-gradient(${color1.value}, ${color2.value})`
     document.body.style.background = gradientString;
-    console.log(gradientString)
 }
 function generateConic() {
     const gradientString = `conic-gradient(${color1.value}, ${color2.value})`
     document.body.style.background = gradientString;
-    console.log(gradientString)
 }

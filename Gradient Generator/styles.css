@@ -9,18 +9,19 @@ body{
 
 }
 .container{
+    background-color: #fff;
     padding: 10px;
     border: 2px solid;
     border-radius: 15px;
-    width: 500px;
-    height: 350px;
+    width: 450px;
+    height: 300px;
 }
 .container h1{
     text-align: center;
     padding: 10px;
 }
 .buttons button{
-    width: 100px;
+    width: 100px; /*120 px yap*/
     font-weight: 700;
     margin-top: 15px;
     padding:10px;
