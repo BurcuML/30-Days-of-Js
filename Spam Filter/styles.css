@@ -14,3 +14,28 @@ body{
     justify-content: center;
     align-items: center;
 }
+textarea{
+    margin: 25px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+header p{
+    margin-top: 15px;
+}
+
+header h1{
+    text-align: center;
+}
+#result{
+    text-align: center;
+    margin-top: 15px;
+    color: #ff0000;
+}
+button{
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(196, 255, 235);
+}
