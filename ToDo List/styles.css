@@ -20,7 +20,7 @@ body{
 }
 .container{
     background-color: #fff;
-    padding: 10px;
+    padding: 25px 10px 0 10px;
     border: 2px solid;
     border-radius: 15px;
     width: 350px;
@@ -40,6 +40,7 @@ button {
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em;
     cursor: pointer;
+    margin-top: 15px;
   }
   
   button:hover {
@@ -55,7 +56,21 @@ button {
     list-style: none;
 }
 .list-li{
+    width: 100%;
     padding: 1em;
     background: linear-gradient(to right, #ffc04c, #ffb01d);
     border-radius: 5px;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+i{
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+input{
+    padding: 0.4em;
+    border-radius: 7px;
 }
