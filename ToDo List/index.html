@@ -11,22 +11,27 @@
 
 <body class="flex">
         <h1 class="title">To-Do List</h1>
-    <div class="container flex">
+    <div class="container">
         <div class="todo-list">
             <!--Eklendiği tarihi de gösteren bir kısım ekle-->
-            <ul class="list">
-                <div class="list-li">
-                <li> Yapılacak 1 <i class="fa-solid fa-trash-can fa-lg delete"></i></li>    
+            <ul class="list" id="list">
+                <div class="list-li" id="list-li">
+                <li id="listnum"> Lorem ipsum dolor sit amet.</li>
+                <div class="end">
+                 <i class="fa-solid fa-trash-can fa-lg delete"></i>    
+                </div>
                 </div>
                 
-                <li> Yapılacak 1 <i class="fa-solid fa-trash-can fa-lg delete"></i></li>
-                <li> Yapılacak 1 <i class="fa-solid fa-trash-can fa-lg delete"></i></li>
-                <li> Yapılacak 1 <i class="fa-solid fa-trash-can fa-lg delete"></i></li>
-                <li> Yapılacak 1 <i class="fa-solid fa-trash-can fa-lg delete"></i></li>
             </ul>
         </div>
+        
     </div>
-    <button type="submit" onclick="">Add</button>
+    <input type="text" name="" id="new-todo">
+    <div class="buttons">
+    <button type="submit" onclick="addTodo()">Add</button>
+    <button type="submit" onclick="clearAll()">Clear All</button>
+    </div>
+
     <script src="main.js"></script>
 </body>
 
