@@ -29,9 +29,7 @@ body{
     background-color: var(--yellow);
     box-shadow: 0.15em 0.10em 0.25em 0.15em;
 }
-.list{
-    list-style: none;
-}
+
 button {
     background: var(--yellow);
     font-family: inherit;
@@ -53,3 +51,11 @@ button {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em;
   }
+  .list{
+    list-style: none;
+}
+.list-li{
+    padding: 1em;
+    background: linear-gradient(to right, #ffc04c, #ffb01d);
+    border-radius: 5px;
+}
