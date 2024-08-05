@@ -19,7 +19,7 @@ body{
     align-items: center;
 }
 .container{
-    background-color: #fff;
+    color: black;
     padding: 25px 10px 0 10px;
     border: 2px solid;
     border-radius: 15px;
@@ -58,8 +58,9 @@ button {
 .list-li{
     width: 100%;
     padding: 1em;
-    background: linear-gradient(to right, #ffc04c, #ffb01d);
+    background: linear-gradient(to right, #e99803, #ffdea1);
     border-radius: 5px;
+    visibility: hidden;
 }
 .end{
     display: flex;
@@ -73,4 +74,7 @@ i{
 input{
     padding: 0.4em;
     border-radius: 7px;
+}
+.todo-list{
+    z-index: 1000;
 }
