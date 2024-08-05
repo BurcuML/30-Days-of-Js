@@ -1,24 +1,26 @@
-const input = document.querySelector("input").value;
+const textarea = document.querySelector("textarea");
 const ul = document.querySelector("ul");
-
+const check = document.querySelector("check");
 
 function addTodo(){
-    if (newTodo==="") {
+    if (textarea.value==="") {
         alert("It's empty text!")
     }
 
     else{
-
+    const text = textarea.value;
     let li = document.createElement("li");
-    let text = document.createTextNode(input);
-    li.appendChild(text)
     ul.appendChild(li);
-    document.getElementById("newTodo").value = "";
-    console.log(text)
-
+    li.textContent= text;
+    document.querySelector("textarea").value = "";
     }
 
 }
+
+/*let items = JSON.parse(localStorage.getItem('items')) || [];
+items.push(input);
+localStorage.setItem('items', JSON.stringify(items));*/
+
 
 function clearAll(){
     localStorage.clear();
