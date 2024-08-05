@@ -24,6 +24,7 @@ body{
     border: 2px solid;
     border-radius: 15px;
     width: 350px;
+    max-width: 400px;
     height: 420px;
     margin: 15px 0 25px 0;
     background-color: var(--yellow);
@@ -52,29 +53,15 @@ button {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em;
   }
-  .list{
-    list-style: none;
-}
-.list-li{
-    width: 100%;
-    padding: 1em;
-    background: linear-gradient(to right, #e99803, #ffdea1);
-    border-radius: 5px;
-    visibility: hidden;
-}
-.end{
-    display: flex;
-    justify-content: flex-end;
-}
-i{
-    padding-top: 10px;
-    cursor: pointer;
-}
 
+  .list{
+    list-style:decimal;
+    margin-left: 25px;
+}
 input{
     padding: 0.4em;
     border-radius: 7px;
 }
-.todo-list{
-    z-index: 1000;
+li{
+    width: 100px;
 }
