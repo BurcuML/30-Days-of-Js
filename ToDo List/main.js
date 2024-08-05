@@ -1,18 +1,26 @@
-let newTodo = document.getElementById("new-todo").value;
-let listLi = document.getElementById("list-li");
-let list = document.getElementById("list");
-let todos = JSON.parse(localStorage.getItem("todo")) || [];
-localStorage.setItem("todo", JSON.stringify(todos));
-const data = JSON.parse(localStorage.getItem('todo'));
+const input = document.querySelector("input").value;
+const ul = document.querySelector("ul");
 
 
-function addTodo(text){
+function addTodo(){
+    if (newTodo==="") {
+        alert("It's empty text!")
+    }
+
+    else{
+
     let li = document.createElement("li");
-    li.textContent = text;
-    list.appendChild(li)
+    let text = document.createTextNode(input);
+    li.appendChild(text)
+    ul.appendChild(li);
+    document.getElementById("newTodo").value = "";
+    console.log(text)
+
+    }
+
 }
 
 function clearAll(){
     localStorage.clear();
-    document.getElementById("listnum").textContent = "";
+    document.getElementById("list").textContent = "";
 }
