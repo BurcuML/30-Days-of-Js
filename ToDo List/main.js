@@ -1,6 +1,5 @@
 const textarea = document.querySelector("textarea");
 const ul = document.querySelector("ul");
-const check = document.querySelector("check");
 
 function addTodo(){
     if (textarea.value==="") {
