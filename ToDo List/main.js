@@ -19,11 +19,6 @@ function addTodo(){
 
 }
 
-/*let items = JSON.parse(localStorage.getItem('items')) || [];
-items.push(input);
-localStorage.setItem('items', JSON.stringify(items));*/
-
-
 function clearAll(){
     localStorage.clear();
     document.getElementById("list").textContent = "";
