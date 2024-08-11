@@ -8,3 +8,19 @@ body{
     height: 100vh;
     font-weight: 500;
 }
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    color: black;
+    padding: 25px 10px 0 10px;
+    border: 2px solid;
+    border-radius: 15px;
+    max-width: 600px;
+    height: 420px;
+    margin: 15px 0 25px 0;
+    box-shadow: 0.15em 0.10em 0.25em 0.15em;
+}
