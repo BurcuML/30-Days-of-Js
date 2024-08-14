@@ -16,15 +16,18 @@
     <header class="flex justify-between items-center p-4">
         <h1 class="text-3xl font-bold">Pixel Art Generator</h1>
     </header>
-    <main>
-        <section class="container space">
-             <label for="width">Width:</label>
+    <main class="container">
+        <section class=" space">
+            <div>
+              <label for="width">Width:</label>
                 <input type="range" id="width" name="width" value="10">
+            </div>
+            <div>
                 <label for="height">Height:</label>
-                <input type="range" id="height" name="height" value="10">
-                <button class="btn btn-primary" onclick=""></button>
-
+                <input type="range" id="height" name="height" value="10">                    
+            </div>   
         </section>
+        <button class="btn btn-primary" onclick=""></button>
     </main>
 
     <script src="main.js"></script>
