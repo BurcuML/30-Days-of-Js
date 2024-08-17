@@ -5,13 +5,11 @@ const height = document.getElementById("height")
 const pwidth = document.getElementById("pwidth")
 const pheight = document.getElementById("pheight")
 
-function updateWidth(val) {
-    width.value=val; 
-    pwidth.innerText= val
-  }
 
-function updateHeight(val2) {
-    height.value=val2; 
-    pheight.innerText= val2
-  }
-  
+const updateHeight = () => {
+  pheight.innerText = height.value
+}
+
+const updateWidth = () => {
+  pwidth.innerText = width.value
+}
