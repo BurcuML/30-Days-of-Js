@@ -9,8 +9,9 @@ function updateWidth(val) {
     width.value=val; 
     pwidth.innerText= val
   }
-  
+
 function updateHeight(val2) {
     height.value=val2; 
     pheight.innerText= val2
   }
+  
