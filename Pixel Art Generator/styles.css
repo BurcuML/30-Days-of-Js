@@ -35,3 +35,12 @@ body{
     border: none;
     border-radius: 1rem;
 }
+p{
+    display: inline;
+    margin-left: 0.4rem;
+    font-size: 1.1rem;
+}
+label{
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
+}
