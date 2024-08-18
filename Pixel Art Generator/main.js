@@ -4,7 +4,7 @@ const width = document.getElementById("width")
 const height = document.getElementById("height")
 const pwidth = document.getElementById("pwidth")
 const pheight = document.getElementById("pheight")
-
+const color = document.getElementById("color")
 
 const updateHeight = () => {
   pheight.innerText = height.value
