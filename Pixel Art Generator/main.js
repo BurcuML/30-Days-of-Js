@@ -13,3 +13,26 @@ const updateHeight = () => {
 const updateWidth = () => {
   pwidth.innerText = width.value
 }
+
+let events = {
+  mouse: {
+    down: "mousedown",
+    move: "mousemove",
+    up: "mouseup",
+  },
+  touch: {
+    down: "touchstart",
+    move: "touchmove",
+    up: "touchend"
+  },
+}
+
+let deviceType= "";
+
+let erase = false;
+let drawing = false;
+let lastX, lastY;
+
+const isTouchDevice = ()=>{
+  
+}
