@@ -35,7 +35,7 @@ body{
     border: none;
     border-radius: 1rem;
 }
-p{
+span{
     display: inline;
     margin-left: 0.4rem;
     font-size: 1.1rem;
@@ -43,4 +43,12 @@ p{
 label{
     font-size: 1.2rem;
     margin-right: 0.4rem;
+}
+.col{
+    height: 1em;
+    width: 1em;
+    border: 1px solid #fffd;
+}
+.row{
+    display: flex;
 }
