@@ -36,9 +36,6 @@ let erase = false;
 let drawing = false;
 let lastX, lastY;
 
-const isTouchDevice = ()=>{
-
-}
 
 const createGrids = ()=>{
   container.innerHTML="";
