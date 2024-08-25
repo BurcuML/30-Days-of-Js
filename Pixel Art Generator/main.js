@@ -56,14 +56,17 @@ const createGrids = ()=>{
   let count= 0;
   for (let i = 0; i < height.value; i++) {
     count+=2;
-    const row = document.createElement("div");
+    let row = document.createEvent("div");
     row.classList.add("row")
   }
     for (let j = 0; j < width.value; j++) {
       count+=2;
-      const col = document.createElement("div");
+      let col = document.createEvent("div");
       col.classList.add("col")
       col.setAttribute("id", `col${count}`)
+      col.addEventListener(events[deviceType].down, ()=>{
+        drawing.true;
+      })
     }
 
 }
