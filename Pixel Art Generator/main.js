@@ -66,6 +66,11 @@ const createGrids = ()=>{
       col.setAttribute("id", `col${count}`)
       col.addEventListener(events[deviceType].down, ()=>{
         drawing.true;
+        if(erase){
+          col.style.backgroundColor= "transparent"
+        }else{
+          col.style.backgroundColor= color.value;
+        }
       })
     }
 
