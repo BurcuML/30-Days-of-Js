@@ -36,6 +36,20 @@ let erase = false;
 let drawing = false;
 let lastX, lastY;
 
+const isTouchDevice = ()=>{
+
+  try{
+    document.createEvent("Touch Event");
+    deviceType = "touch";
+    return true;
+  }
+  catch(e){
+    deviceType = "mouse";
+    return false;
+    }
+}
+
+
 
 const createGrids = ()=>{
   container.innerHTML="";
