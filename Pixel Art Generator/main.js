@@ -74,6 +74,6 @@ const createGrids = ()=>{
       })
     }
 
-
+    col.addEventListener(events[deviceType].move, (e))
 
 }
