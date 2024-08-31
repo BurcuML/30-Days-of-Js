@@ -74,6 +74,12 @@ const createGrids = ()=>{
       })
     }
 
-    col.addEventListener(events[deviceType].move, (e))
+    col.addEventListener(events[deviceType].move, (e)=>{
+      let elementId= document.elementFromPoint(
+        !isTouchDevice() ? e.clientX : e.touches[0].clientX,
+        !isTouchDevice() ? e.clientY : e.touches[0].clientY,
+      ), id;
+      checker(elementId)
+    })
 
 }
