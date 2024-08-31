@@ -81,5 +81,12 @@ const createGrids = ()=>{
       ), id;
       checker(elementId)
     })
+    col.addEventListener(events[deviceType].up, ()=>{
+      drawing=false;
+    });
+    div.appendChild(col)
 
+    function checker(){
+      let gridColumn= document.querySelectorAll(".col")
+    }
 }
