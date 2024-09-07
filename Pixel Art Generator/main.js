@@ -88,5 +88,12 @@ const createGrids = ()=>{
 
     function checker(){
       let gridColumn= document.querySelectorAll(".col")
+      gridColumn.forEach((element)=>{
+        if(elementId== element.id){
+          
+        }
+      })
+
+      
     }
 }
